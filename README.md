@@ -102,3 +102,13 @@ Data Access:
 Dataset is available on the Kaggle challenge page.
 Citations
 Kaggle: Predict Student Performance from Game Play.
+
+Feature Engineering
+
+I began by importing the necessary libraries, specifically pandas and matplotlib.pyplot. Pandas helped me handle the dataset, and matplotlib.pyplot was used to create visualizations, like histograms, for better data analysis. After importing the libraries, I loaded my dataset into a pandas DataFrame using the read_csv() function. This allowed me to easily access and manipulate the data for analysis.
+
+Next, I identified the numeric columns in my dataset by selecting the ones with data types int64 and float64. Since I was interested in calculating the mean and standard deviation (SD), I focused on numeric data only. Once I had a clean list of numeric columns, I moved on to calculating the mean and standard deviation for each of them. The mean represents the average value of a column, which gives me an idea of the central tendency. The standard deviation, on the other hand, tells me how spread out the values are from the mean, indicating the variability in the data. I calculated these using pandas' built-in mean() and std() functions for each numeric column, storing the results in a dictionary for easy reference.
+
+To further understand the distribution of the data, I created histograms for each numeric column. Histograms provide a visual representation of how values are distributed across different ranges, which is useful for spotting patterns, trends, or outliers in the data. I used matplotlib to plot the histograms, specifying the number of bins and color to customize the appearance. I also made sure to remove any missing values (NaNs) from the data before plotting, so that the histograms would accurately represent the existing values.
+
+In summary, through these steps, I calculated the mean and standard deviation for each numeric column, which gave me a numerical summary of the data. The histograms helped me visualize the distribution of the data, providing further insights into how each numeric feature behaves. By combining these statistical measures with the visualizations, I gained a deeper understanding of the dataset, which is crucial for making informed decisions in future analyses or modeling tasks.
