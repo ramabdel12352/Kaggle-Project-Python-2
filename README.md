@@ -1,17 +1,22 @@
 Project Title
+
 Predicting Student Performance from Game Play
 
 One Sentence Summary
+
 This repository explores predicting student correctness in an educational game ("Jo Wilder") using the Kaggle challenge dataset: Predict Student Performance.
 
 Overview
+
 Definition of the Task
 The Kaggle challenge involves predicting the correctness of a student's response in an educational game based on their interaction data, such as room coordinates, event types, and time spent. This task is framed as a binary classification problem.
 
 Approach
+
 Our approach focuses on preprocessing the dataset by handling missing values, encoding categorical variables, and scaling numerical features. We engineered session-level features (e.g., aggregated statistics) and employed a Random Forest Classifier to predict student performance. We also analyzed feature importance and visualized interaction patterns to guide our feature engineering.
 
 Summary of Performance Achieved
+
 The model achieved an accuracy of 1.0 on the test set, but this suggests overfitting. Future improvements include addressing class imbalance and exploring advanced machine learning models.
 Summary of Work Done
 
