@@ -13,7 +13,7 @@ The Kaggle challenge involves predicting the correctness of a student's response
 
 Approach
 
-Our approach focuses on preprocessing the dataset by handling missing values, encoding categorical variables, and scaling numerical features. We engineered session-level features (e.g., aggregated statistics) and employed a Random Forest Classifier to predict student performance. We also analyzed feature importance and visualized interaction patterns to guide our feature engineering.
+My approach focuses on preprocessing the dataset by handling missing values, encoding categorical variables, and scaling numerical features. I engineered session-level features (e.g., aggregated statistics) and employed a Random Forest Classifier to predict student performance. I also analyzed feature importance and visualized interaction patterns to guide our feature engineering.
 
 Summary of Performance Achieved
 
