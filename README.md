@@ -37,7 +37,6 @@ The model achieved an accuracy of 1.0 on the test set, which suggests overfittin
 ### Instances:
 - **Training:** 6,000 samples.
 - **Test:** 2,000 samples.
-- **Validation:** Not explicitly defined; a portion of the test set was used for this purpose.
 
 ### Preprocessing / Cleanup:
 - **Missing Values:** Imputed missing values in numerical columns with the median.
