@@ -53,6 +53,8 @@ The model achieved an accuracy of 1.0 on the test set, which suggests overfittin
 - **Feature Distributions:** Histograms showed clustering in features like `room_coor_x` and `hover_duration`.
 - **Feature-Class Relationship:** Notable differences in distributions for features like `elapsed_time` and `room_coor_x` between correct and incorrect responses.
 
+![image](https://github.com/user-attachments/assets/20430dc4-a7ee-4418-8884-142eb0a41680)
+
 ---
 
 ## Problem Formulation
